@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9e73f3-82cc-406a-bdc5-14f173f8594e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio_hora_da_pratica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculeFatorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparandoDoisInteiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenuAreaGeometricos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParouImpar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositivoOuNegativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TabuadaDeUmADez.java" afterDir="false" />
+    <list default="true" id="5a9e73f3-82cc-406a-bdc5-14f173f8594e" name="Changes" comment="Add Desafios ou Mini-Projetos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bhclira"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="15095f10-d985-43a5-b268-d5f5d247e8e3" />
+        <option name="url" value="https://github.com/bhclira/Java_LearnAndPratice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -47,6 +50,7 @@
   "keyToString": {
     "Application.CalculeFatorial.executor": "Run",
     "Application.ComparandoDoisInteiros.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MenuAreaGeometricos.executor": "Run",
     "Application.ParouImpar.executor": "Run",
     "Application.PositivoOuNegativo.executor": "Run",
@@ -57,7 +61,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalculeFatorial">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CalculeFatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculeFatorial" />
       <module name="desafio_hora_da_pratica" />
@@ -65,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparandoDoisInteiros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparandoDoisInteiros" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="desafio_hora_da_pratica" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalculeFatorial" />
         <item itemvalue="Application.ParouImpar" />
         <item itemvalue="Application.TabuadaDeUmADez" />
         <item itemvalue="Application.MenuAreaGeometricos" />
-        <item itemvalue="Application.ComparandoDoisInteiros" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +116,19 @@
       <option name="presentableId" value="Default" />
       <updated>1708204763472</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Desafios ou Mini-Projetos">
+      <option name="closed" value="true" />
+      <created>1708210441787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708210441787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Desafios ou Mini-Projetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Desafios ou Mini-Projetos" />
   </component>
 </project>
