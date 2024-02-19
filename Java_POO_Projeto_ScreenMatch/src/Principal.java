@@ -1,4 +1,5 @@
-import br.com.alura.screenmatch.modelos.Filme.Filme;
+import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -21,5 +22,12 @@ public class Principal {
         // maneira segura e desejavel com MOD DE ACESSO OU VISIBILIDADE PRIVADO
 
         System.out.println("Media de Avaliações do Filme: " + favorito.pegaMedia());
+
+        Serie lost = new Serie(); // Classe objeto = new Objeto
+        lost.setNome("Lost");
+        lost.setAnoDeLancamento(2000);
+        lost.exibeFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporada(10);
     }
 }

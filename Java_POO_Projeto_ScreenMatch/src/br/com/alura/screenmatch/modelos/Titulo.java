@@ -1,7 +1,11 @@
-package br.com.alura.screenmatch.modelos.Filme;
+// confeccionando uma CLASSE MÃE
+// 1. anexe todos os atributos, metodos e Getters and Setters
+// da classe menor Filme
 
-public class Filme {
-    // inicializando atributos
+package br.com.alura.screenmatch.modelos;
+
+public class Titulo {
+// inicializando atributos de tudo o que tem na Classe Filme
     private String nome;
     private int anoDeLancamento;
     private int duracaoEmMinutos;
@@ -26,7 +30,9 @@ public class Filme {
     public double pegaMedia() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
-    // fazendo os GETTERS & setters -  ALT + INSERT > GETTERS > ESCOLHA OS ATRIBUTOS DESEJADOS
+
+    // fazendo os GETTERS & setters
+    // ALT + INSERT > GETTERS > ESCOLHA OS ATRIBUTOS DESEJADOS
 
     public String getNome() {
         return this.nome;
@@ -64,9 +70,4 @@ public class Filme {
         return this.totalDeAvaliacoes;
     }
 }
-
-/*
-aprenda a usar java doc ou documentação do JAVA:
-java doc no google > technical documentation > api
- */
 
