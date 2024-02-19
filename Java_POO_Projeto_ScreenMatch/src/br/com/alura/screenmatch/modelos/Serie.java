@@ -13,22 +13,19 @@ classe MÃE Título > classes filhas : Filme e Serie
 package br.com.alura.screenmatch.modelos;
 
 public class Serie extends Titulo {
-// adicione atributos que pertence somente a essa classe
-    int temporadas;
-    int episodiosPorTemporada;
-    boolean ativa;
-    int minutosPorEpisodio;
 
-// getters and setters
-
+    // adicione atributos que pertence somente a essa classe
+    private int temporadas;
+    private boolean ativa;
+    private int episodiosPorTemporada;
+    private int minutosPorEpisodio;
+    // getters and setters
     public int getTemporadas() {
         return temporadas;
     }
-
     public void setTemporadas(int temporadas) {
         this.temporadas = temporadas;
     }
-
     public int getEpisodiosPorTemporada() {
         return episodiosPorTemporada;
     }
@@ -53,8 +50,13 @@ public class Serie extends Titulo {
         this.minutosPorEpisodio = minutosPorEpisodio;
     }
 
-    //métodos
+// SOBRESCRITA DE METODO - @override possibilita a sobrescrita de um método
+// leia-se tem lá na classe mãe mas aqui farei de uma maneira diferente
 
+    @Override
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada *  minutosPorEpisodio;
+    }
 
-}
+    }
 

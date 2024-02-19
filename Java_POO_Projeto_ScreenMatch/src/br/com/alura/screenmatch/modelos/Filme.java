@@ -5,17 +5,86 @@
 package br.com.alura.screenmatch.modelos;
 
 public class Filme extends Titulo {
-    // inicializando atributos eclusivos de filme
+// inicializando atributos eclusivos de filme
+    private String nome;
     private String diretor;
+    private int anoDeLancamento;
+    private int duracaoEmMinutos;
+    private boolean incluidoNoPlano;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
+
+    public void exibeFichaTecnica() {
+        System.out.println("Nome do Filme: " + this.nome);
+        System.out.println("Ano de Lançamento: " + this.anoDeLancamento);
+        System.out.println("Duração em Minutos: " + this.duracaoEmMinutos);
+        System.out.println("Incluído no Plano: " + this.incluidoNoPlano);
+    }
+
+    public void avalia(double nota) {
+        somaDasAvaliacoes = somaDasAvaliacoes + nota;
+        totalDeAvaliacoes++;
+    }
+
+    public double pegaMedia () {
+        return somaDasAvaliacoes/totalDeAvaliacoes;
+    }
 
     public String getDiretor() {
-        return diretor;
+        return this.diretor;
     }
 
     public void setDiretor(String diretor) {
         this.diretor = diretor;
     }
 
+    @Override
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    @Override
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    @Override
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
+    @Override
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    @Override
+    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
+        this.incluidoNoPlano = incluidoNoPlano;
+    }
+
+    @Override
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
+    public void setTotalDeAvaliacoes(int totalDeAvaliacoes) {
+        this.totalDeAvaliacoes = totalDeAvaliacoes;
+    }
 }
 
 /*
