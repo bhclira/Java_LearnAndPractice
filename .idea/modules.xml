@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio2/Desafio2.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio2/Desafio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_LearnAndPractice.iml" filepath="$PROJECT_DIR$/.idea/Java_LearnAndPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_LogicChallenges/Java_LogicChallenges.iml" filepath="$PROJECT_DIR$/Java_LogicChallenges/Java_LogicChallenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Mini_Projeto_ContaCorrente/Java_Mini_Projeto_ContaCorrente.iml" filepath="$PROJECT_DIR$/Java_Mini_Projeto_ContaCorrente/Java_Mini_Projeto_ContaCorrente.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios/Java_POO_Mini_Desafios.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios/Java_POO_Mini_Desafios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_Polimorfismos_Herancas/Java_POO_Mini_Desafios_Polimorfismos_Herancas.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_Polimorfismos_Herancas/Java_POO_Mini_Desafios_Polimorfismos_Herancas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Java_POO_Mini_Desafios_2.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Java_POO_Mini_Desafios_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Projeto_ScreenMatch/Java_POO_Projeto_ScreenMatch.iml" filepath="$PROJECT_DIR$/Java_POO_Projeto_ScreenMatch/Java_POO_Projeto_ScreenMatch.iml" />
     </modules>
   </component>
