@@ -4,7 +4,9 @@
 
 package br.com.alura.screenmatch.modelos;
 
-public class Filme extends Titulo {
+import br.alura.screematch.calculos.Classificavel;
+
+public class Filme extends Titulo implements Classificavel { // precisa criar o metodo  getClassificacao()
 // inicializando atributos eclusivos de filme
     private String nome;
     private String diretor;
@@ -84,6 +86,11 @@ public class Filme extends Titulo {
 
     public void setTotalDeAvaliacoes(int totalDeAvaliacoes) {
         this.totalDeAvaliacoes = totalDeAvaliacoes;
+    }
+
+    @Override
+    public int getClassificacao() { // implementavel
+        return (int) pegaMedia() / 2;
     }
 }
 

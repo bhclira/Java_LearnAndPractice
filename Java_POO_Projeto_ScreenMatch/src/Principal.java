@@ -1,4 +1,6 @@
 import br.alura.screematch.calculos.CalculadoraDeTempo;
+import br.alura.screematch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -52,6 +54,16 @@ public class Principal {
         // a maneira como os métodos se conectam costumam ser chamadas de DESIGN DAS CLASSES
         // o design quando é bonito diz-se que a dependencia é leve, que existe um bom acoplamento
 
+    // CLASSIFICAVEL IMPLEMENTACAO
+        // instancia um novo filtro de recomendação
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme); // meu filme que está já implementado na Classificavel
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }
 
