@@ -16,6 +16,11 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
 
+    // construtores recebe no principal da função na hora de criar objeto
+    public Filme(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
+
     public void exibeFichaTecnica() {
         System.out.println("Nome do Filme: " + this.nome);
         System.out.println("Ano de Lançamento: " + this.anoDeLancamento);
@@ -91,6 +96,11 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
     @Override
     public int getClassificacao() { // implementavel
         return (int) pegaMedia() / 2;
+    }
+
+    @Override
+    public String toString() {
+        return "Filme: " + this.getNome() + " (" + this.getAnoDeLancamento() + ")";
     }
 }
 

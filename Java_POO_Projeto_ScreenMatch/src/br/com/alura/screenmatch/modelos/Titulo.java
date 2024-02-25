@@ -13,6 +13,13 @@ public class Titulo {
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
 
+    // construtores que vao ser herdados por series e filmes
+
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
     // metodos
 
     public void exibeFichaTecnica() {
