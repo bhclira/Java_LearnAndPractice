@@ -7,7 +7,7 @@ classe MÃE Título > classes filhas : Filme e Serie
 
  1. colque extends Titulo par aque herde os
  atributos e tenha tudo que tem Titulo;
- 2. crie um objeto <Serie serie = new Serie();> na Principal
+ 2. crie um objeto <Serie serie = new Serie();> na br.com.alura.screenmatch.principal.Principal
  */
 
 package br.com.alura.screenmatch.modelos;

@@ -4,7 +4,7 @@
 
 package br.com.alura.screenmatch.modelos;
 
-import br.alura.screematch.calculos.Classificavel;
+import br.com.alura.screenmatch.calculos.Classificavel;
 
 public class Filme extends Titulo implements Classificavel { // precisa criar o metodo  getClassificacao()
 // inicializando atributos eclusivos de filme
@@ -38,7 +38,7 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
     }
 
     public String getDiretor() {
-        return this.diretor;
+        return diretor;
     }
 
     public void setDiretor(String diretor) {
@@ -46,18 +46,8 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
     }
 
     @Override
-    public String getNome() {
-        return nome;
-    }
-
-    @Override
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    @Override
     public int getAnoDeLancamento() {
-        return anoDeLancamento;
+        return this.anoDeLancamento;
     }
 
     @Override
@@ -84,11 +74,6 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
-    @Override
-    public int getTotalDeAvaliacoes() {
-        return totalDeAvaliacoes;
-    }
-
     public void setTotalDeAvaliacoes(int totalDeAvaliacoes) {
         this.totalDeAvaliacoes = totalDeAvaliacoes;
     }
@@ -98,6 +83,7 @@ public class Filme extends Titulo implements Classificavel { // precisa criar o 
         return (int) pegaMedia() / 2;
     }
 
+    // sobrescrever toString() da classe object mão-de-todas
     @Override
     public String toString() {
         return "Filme: " + this.getNome() + " (" + this.getAnoDeLancamento() + ")";

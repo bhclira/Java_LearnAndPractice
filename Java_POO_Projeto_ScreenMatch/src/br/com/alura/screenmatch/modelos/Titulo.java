@@ -4,8 +4,13 @@
 
 package br.com.alura.screenmatch.modelos;
 
+import br.com.alura.screenmatch.principal.Principal;
+import br.com.alura.screenmatch.principal.PrincipalComListas;
+
+
 public class Titulo {
 // inicializando atributos de tudo o que tem na Classe Filme
+
     private String nome;
     private int anoDeLancamento;
     private int duracaoEmMinutos;
@@ -75,6 +80,14 @@ public class Titulo {
 
     public int getTotalDeAvaliacoes() {
         return this.totalDeAvaliacoes;
+    }
+
+    @Override
+    public String toString() {
+        return "Titulo{" +
+                "nome='" + nome + '\'' +
+                ", anoDeLancamento=" + anoDeLancamento +
+                '}';
     }
 }
 

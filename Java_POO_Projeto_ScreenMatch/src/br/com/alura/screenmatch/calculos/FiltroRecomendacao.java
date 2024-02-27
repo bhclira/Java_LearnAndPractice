@@ -1,4 +1,4 @@
-package br.alura.screematch.calculos;
+package br.com.alura.screenmatch.calculos;
 
 public class FiltroRecomendacao {
 

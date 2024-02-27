@@ -1,5 +1,5 @@
 // CLASSE-MÃE DE TODAS
-package br.com.alura.minhasmusicas.modelos;
+package br.com.alura.screenmatch.com.alura.minhasmusicas.modelos;
 
 public class Audio {
     // atributos desta e de todas as classes (herança)

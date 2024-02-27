@@ -1,7 +1,7 @@
-package br.com.alura.minhasmusicas.principal;
-import br.com.alura.minhasmusicas.modelos.MinhasPreferidas;
-import br.com.alura.minhasmusicas.modelos.Musica;
-import br.com.alura.minhasmusicas.modelos.Podcast;
+package br.com.alura.screenmatch.com.alura.minhasmusicas.principal;
+import br.com.alura.screenmatch.com.alura.minhasmusicas.modelos.MinhasPreferidas;
+import br.com.alura.screenmatch.com.alura.minhasmusicas.modelos.Musica;
+import br.com.alura.screenmatch.com.alura.minhasmusicas.modelos.Podcast;
 
 public class Principal {
     public static void main(String[] args) {

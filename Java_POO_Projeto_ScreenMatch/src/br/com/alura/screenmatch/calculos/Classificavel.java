@@ -1,4 +1,4 @@
-package br.alura.screematch.calculos;
+package br.com.alura.screenmatch.calculos;
 
 // usar uma interface pq nao podemos fazer extends de varias classes
 public interface Classificavel {
