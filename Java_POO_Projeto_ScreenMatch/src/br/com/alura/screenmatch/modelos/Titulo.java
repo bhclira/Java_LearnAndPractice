@@ -8,7 +8,7 @@ import br.com.alura.screenmatch.principal.Principal;
 import br.com.alura.screenmatch.principal.PrincipalComListas;
 
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
 // inicializando atributos de tudo o que tem na Classe Filme
 
     private String nome;
@@ -88,6 +88,14 @@ public class Titulo {
                 "nome='" + nome + '\'' +
                 ", anoDeLancamento=" + anoDeLancamento +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        // quero esse titulo comparado com outro título
+        return this.getNome().compareTo(outroTitulo.getNome());
+        // como getnome() retorna uma string, ja existe um metodo de string
+        // chamado compareTo(). entre parenteses compare outroTitulo.
     }
 }
 
