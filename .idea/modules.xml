@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios3_Intefaces/Desafio01_Conversor_Moeda/Desafio01_Conversor_Moeda.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios3_Intefaces/Desafio01_Conversor_Moeda/Desafio01_Conversor_Moeda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_3_Intefaces/Desafio01_Conversor_Moeda/Desafio01_Conversor_Moeda.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_3_Intefaces/Desafio01_Conversor_Moeda/Desafio01_Conversor_Moeda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio2/Desafio2.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio2/Desafio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio3/Desafio3.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Desafio3/Desafio3.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_POO_Projeto_Minhas_Musicas/JAVA_POO_Projeto_Minhas_Musicas.iml" filepath="$PROJECT_DIR$/JAVA_POO_Projeto_Minhas_Musicas/JAVA_POO_Projeto_Minhas_Musicas.iml" />
@@ -10,8 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/Java_LogicChallenges/Java_LogicChallenges.iml" filepath="$PROJECT_DIR$/Java_LogicChallenges/Java_LogicChallenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Mini_Projeto_ContaCorrente/Java_Mini_Projeto_ContaCorrente.iml" filepath="$PROJECT_DIR$/Java_Mini_Projeto_ContaCorrente/Java_Mini_Projeto_ContaCorrente.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios/Java_POO_Mini_Desafios.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios/Java_POO_Mini_Desafios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios3_Intefaces/Java_POO_Mini_Desafios3_Intefaces.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios3_Intefaces/Java_POO_Mini_Desafios3_Intefaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_3_Intefaces/Java_POO_Mini_Desafios3_Intefaces.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_3_Intefaces/Java_POO_Mini_Desafios3_Intefaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Java_POO_Mini_Desafios_2.iml" filepath="$PROJECT_DIR$/Java_POO_Mini_Desafios_2/Java_POO_Mini_Desafios_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_POO_Projeto_App_de_Compras/Java_POO_Projeto_App_de_Compras.iml" filepath="$PROJECT_DIR$/Java_POO_Projeto_App_de_Compras/Java_POO_Projeto_App_de_Compras.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_POO_Projeto_ScreenMatch/Java_POO_Projeto_ScreenMatch.iml" filepath="$PROJECT_DIR$/Java_POO_Projeto_ScreenMatch/Java_POO_Projeto_ScreenMatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Working_with_Lists_and_Data_Colections/Java_Working_with_Lists_and_Data_Colections.iml" filepath="$PROJECT_DIR$/Java_Working_with_Lists_and_Data_Colections/Java_Working_with_Lists_and_Data_Colections.iml" />
     </modules>

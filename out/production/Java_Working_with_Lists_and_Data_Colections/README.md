@@ -47,4 +47,16 @@ contas bancárias com diferentes saldos. Utilize um loop para encontrar e imprim
 5. A passar parâmetros ao instanciar objetos, com a utilização de construtores;  
 6. Como funciona o construtor default (padrão) no Java;  
 7. Como declarar construtores em uma classe;  
-8. A chamar o construtor da classe mãe, com a palavra reservada super.
+8. A chamar o construtor da classe mãe, com a palavra reservada super;  
+9. Como ordenar uma lista no Java, via método Collections.sort;  
+10. Que para ordenar objetos que são de classes do nosso projeto, com a classe
+Titulo, devemos implementar nela a interface Comparable;  
+11. Como implementar corretamente o método compareTo, da interface Comparable,  
+para que o Java faça a ordenação correta dos elementos de uma lista;  
+12. Que podemos flexibilizar a ordenação de uma lista, via método sort da própria  
+interface List, passando como parâmetro um critério de ordenação;  
+13. Que a classe ArrayList implementa a interface List, sendo que essa interface  
+possui outras implementações, como a classe LinkedList;  
+14. Que podemos declarar a variável de uma lista utilizando a interface List,  
+ganhando com isso o polimorfismo com a flexibilidade de trocar facilmente a  
+implementação sendo instanciada.  
